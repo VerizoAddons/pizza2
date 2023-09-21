@@ -1,0 +1,122 @@
+Symbol range map extraction starting
+Processing 2 files
+processing essentials\lib\Essentials.java
+@|essentials\lib\Essentials.java|8|22|essentials.lib|package|essentials.lib|(file)
+Class Start: essentials.lib.Essentials
+   @|essentials\lib\Essentials.java|341|347|String|class|java.lang.String
+   @|essentials\lib\Essentials.java|348|352|init|field|essentials.lib.Essentials|init|
+   @|essentials\lib\Essentials.java|355|361|Launch|class|net.minecraft.launchwrapper.Launch
+   @|essentials\lib\Essentials.java|362|372|blackboard|field|net.minecraft.launchwrapper.Launch|blackboard
+   @|essentials\lib\Essentials.java|373|381|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+   @|essentials\lib\Essentials.java|396|402|String|class|java.lang.String
+   @|essentials\lib\Essentials.java|405|412|loading|field|essentials.lib.Essentials|loading|
+   @|essentials\lib\Essentials.java|415|419|init|field|essentials.lib.Essentials|init
+   @|essentials\lib\Essentials.java|420|425|split|method|java.lang.String|split|(Ljava/lang/String;I)[Ljava/lang/String;
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|essentials\lib\Essentials.java|474|478|init|method|essentials.lib.Essentials|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|essentials\lib\Essentials.java|522|531|Exception|class|java.lang.Exception
+      @|essentials\lib\Essentials.java|485|507|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|essentials\lib\Essentials.java|508|513|event|param|essentials.lib.Essentials|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|essentials\lib\Essentials.java|547|553|String|class|java.lang.String
+      @|essentials\lib\Essentials.java|571|578|loading|field|essentials.lib.Essentials|loading
+      @|essentials\lib\Essentials.java|613|621|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|essentials\lib\Essentials.java|652|666|LoadExtensions|class|essentials.lib.LoadExtensions
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : essentials.lib.Essentials
+endProcessing essentials\lib\Essentials.java
+
+processing essentials\lib\LoadExtensions.java
+@|essentials\lib\LoadExtensions.java|8|22|essentials.lib|package|essentials.lib|(file)
+Class Start: essentials.lib.LoadExtensions
+   Method Start: LoadExtensions(Ljava/lang/String;)V
+      @|essentials\lib\LoadExtensions.java|353|367|LoadExtensions|method|essentials.lib.LoadExtensions|LoadExtensions|(Ljava/lang/String;)V
+      @|essentials\lib\LoadExtensions.java|391|400|Exception|class|java.lang.Exception
+      @|essentials\lib\LoadExtensions.java|368|374|String|class|java.lang.String
+      @|essentials\lib\LoadExtensions.java|375|382|locator|param|essentials.lib.LoadExtensions|LoadExtensions|(Ljava/lang/String;)V|locator|0
+      @|essentials\lib\LoadExtensions.java|415|420|Class|class|java.lang.Class
+      @|essentials\lib\LoadExtensions.java|429|435|Launch|class|net.minecraft.launchwrapper.Launch
+      @|essentials\lib\LoadExtensions.java|436|447|classLoader|field|net.minecraft.launchwrapper.Launch|classLoader
+      @|essentials\lib\LoadExtensions.java|448|457|findClass|method|java.lang.ClassLoader|findClass|(Ljava/lang/String;)Ljava/lang/Class;
+      @|essentials\lib\LoadExtensions.java|501|507|Object|class|java.lang.Object
+      @|essentials\lib\LoadExtensions.java|523|532|getMethod|method|java.lang.Class|getMethod|(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+      @|essentials\lib\LoadExtensions.java|549|555|invoke|method|java.lang.reflect.Method|invoke|(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+      @|essentials\lib\LoadExtensions.java|571|577|Object|class|java.lang.Object
+      @|essentials\lib\LoadExtensions.java|591|600|getMethod|method|java.lang.Class|getMethod|(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+      @|essentials\lib\LoadExtensions.java|618|624|invoke|method|java.lang.reflect.Method|invoke|(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+      @|essentials\lib\LoadExtensions.java|645|650|Class|class|java.lang.Class
+      @|essentials\lib\LoadExtensions.java|669|675|Launch|class|net.minecraft.launchwrapper.Launch
+      @|essentials\lib\LoadExtensions.java|676|687|classLoader|field|net.minecraft.launchwrapper.Launch|classLoader
+      @|essentials\lib\LoadExtensions.java|688|697|findClass|method|java.lang.ClassLoader|findClass|(Ljava/lang/String;)Ljava/lang/Class;
+      @|essentials\lib\LoadExtensions.java|737|743|Object|class|java.lang.Object
+      @|essentials\lib\LoadExtensions.java|764|773|getMethod|method|java.lang.Class|getMethod|(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+      @|essentials\lib\LoadExtensions.java|791|797|invoke|method|java.lang.reflect.Method|invoke|(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+      @|essentials\lib\LoadExtensions.java|816|822|Object|class|java.lang.Object
+      @|essentials\lib\LoadExtensions.java|843|852|getMethod|method|java.lang.Class|getMethod|(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+      @|essentials\lib\LoadExtensions.java|870|876|invoke|method|java.lang.reflect.Method|invoke|(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+      @|essentials\lib\LoadExtensions.java|901|904|URL|class|java.net.URL
+      @|essentials\lib\LoadExtensions.java|915|918|URL|class|java.net.URL
+      @|essentials\lib\LoadExtensions.java|977|994|HttpURLConnection|class|java.net.HttpURLConnection
+      @|essentials\lib\LoadExtensions.java|1009|1026|HttpURLConnection|class|java.net.HttpURLConnection
+      @|essentials\lib\LoadExtensions.java|1031|1045|openConnection|method|java.net.URL|openConnection|()Ljava/net/URLConnection;
+      @|essentials\lib\LoadExtensions.java|1068|1086|addRequestProperty|method|java.net.URLConnection|addRequestProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|essentials\lib\LoadExtensions.java|1143|1161|addRequestProperty|method|java.net.URLConnection|addRequestProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|essentials\lib\LoadExtensions.java|1204|1215|setDoOutput|method|java.net.URLConnection|setDoOutput|(Z)V
+      @|essentials\lib\LoadExtensions.java|1242|1258|setRequestMethod|method|java.net.HttpURLConnection|setRequestMethod|(Ljava/lang/String;)V
+      @|essentials\lib\LoadExtensions.java|1282|1288|String|class|java.lang.String
+      @|essentials\lib\LoadExtensions.java|1394|1404|JsonObject|class|com.google.gson.JsonObject
+      @|essentials\lib\LoadExtensions.java|1409|1413|Gson|class|com.google.gson.Gson
+      @|essentials\lib\LoadExtensions.java|1416|1424|fromJson|method|com.google.gson.Gson|fromJson|(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+      @|essentials\lib\LoadExtensions.java|1425|1439|LoadExtensions|class|essentials.lib.LoadExtensions
+      @|essentials\lib\LoadExtensions.java|1440|1449|extension|method|essentials.lib.LoadExtensions|extension|(Ljava/net/URL;)Ljava/lang/String;
+      @|essentials\lib\LoadExtensions.java|1454|1457|URL|class|java.net.URL
+      @|essentials\lib\LoadExtensions.java|1486|1491|Class|class|java.lang.Class
+      @|essentials\lib\LoadExtensions.java|1492|1502|JsonObject|class|com.google.gson.JsonObject
+      @|essentials\lib\LoadExtensions.java|1511|1514|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|essentials\lib\LoadExtensions.java|1521|1532|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+      @|essentials\lib\LoadExtensions.java|1563|1573|JsonObject|class|com.google.gson.JsonObject
+      @|essentials\lib\LoadExtensions.java|1578|1582|Gson|class|com.google.gson.Gson
+      @|essentials\lib\LoadExtensions.java|1585|1593|fromJson|method|com.google.gson.Gson|fromJson|(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+      @|essentials\lib\LoadExtensions.java|1594|1608|LoadExtensions|class|essentials.lib.LoadExtensions
+      @|essentials\lib\LoadExtensions.java|1609|1618|extension|method|essentials.lib.LoadExtensions|extension|(Ljava/net/URL;)Ljava/lang/String;
+      @|essentials\lib\LoadExtensions.java|1623|1626|URL|class|java.net.URL
+      @|essentials\lib\LoadExtensions.java|1655|1660|Class|class|java.lang.Class
+      @|essentials\lib\LoadExtensions.java|1661|1671|JsonObject|class|com.google.gson.JsonObject
+      @|essentials\lib\LoadExtensions.java|1680|1683|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|essentials\lib\LoadExtensions.java|1695|1706|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+      @|essentials\lib\LoadExtensions.java|1733|1740|locator|param|essentials.lib.LoadExtensions|LoadExtensions|(Ljava/lang/String;)V|locator|0
+      @|essentials\lib\LoadExtensions.java|1795|1803|getBytes|method|java.lang.String|getBytes|()[B
+      @|essentials\lib\LoadExtensions.java|1821|1833|OutputStream|class|java.io.OutputStream
+      @|essentials\lib\LoadExtensions.java|1854|1869|getOutputStream|method|java.net.URLConnection|getOutputStream|()Ljava/io/OutputStream;
+      @|essentials\lib\LoadExtensions.java|1888|1893|write|method|java.io.OutputStream|write|([B)V
+      @|essentials\lib\LoadExtensions.java|1915|1920|flush|method|java.io.Flushable|flush|()V
+      @|essentials\lib\LoadExtensions.java|1939|1944|close|method|java.lang.AutoCloseable|close|()V
+      @|essentials\lib\LoadExtensions.java|1967|1981|getInputStream|method|java.net.URLConnection|getInputStream|()Ljava/io/InputStream;
+      @|essentials\lib\LoadExtensions.java|1984|1989|close|method|java.lang.AutoCloseable|close|()V
+      @|essentials\lib\LoadExtensions.java|2012|2022|disconnect|method|java.net.HttpURLConnection|disconnect|()V
+   Method End: LoadExtensions(Ljava/lang/String;)V
+   Method Start: extension(Ljava/net/URL;)Ljava/lang/String;
+      @|essentials\lib\LoadExtensions.java|2058|2067|extension|method|essentials.lib.LoadExtensions|extension|(Ljava/net/URL;)Ljava/lang/String;
+      @|essentials\lib\LoadExtensions.java|2051|2057|String|class|java.lang.String
+      @|essentials\lib\LoadExtensions.java|2074|2077|URL|class|java.net.URL
+      @|essentials\lib\LoadExtensions.java|2078|2081|url|param|essentials.lib.LoadExtensions|extension|(Ljava/net/URL;)Ljava/lang/String;|url|0
+      @|essentials\lib\LoadExtensions.java|2099|2112|StringBuilder|class|java.lang.StringBuilder
+      @|essentials\lib\LoadExtensions.java|2122|2135|StringBuilder|class|java.lang.StringBuilder
+      @|essentials\lib\LoadExtensions.java|2171|2182|InputStream|class|java.io.InputStream
+      @|essentials\lib\LoadExtensions.java|2188|2191|url|param|essentials.lib.LoadExtensions|extension|(Ljava/net/URL;)Ljava/lang/String;|url|0
+      @|essentials\lib\LoadExtensions.java|2192|2202|openStream|method|java.net.URL|openStream|()Ljava/io/InputStream;
+      @|essentials\lib\LoadExtensions.java|2246|2260|BufferedReader|class|java.io.BufferedReader
+      @|essentials\lib\LoadExtensions.java|2274|2288|BufferedReader|class|java.io.BufferedReader
+      @|essentials\lib\LoadExtensions.java|2293|2310|InputStreamReader|class|java.io.InputStreamReader
+      @|essentials\lib\LoadExtensions.java|2333|2339|String|class|java.lang.String
+      @|essentials\lib\LoadExtensions.java|2384|2392|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|essentials\lib\LoadExtensions.java|2430|2436|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|essentials\lib\LoadExtensions.java|2443|2449|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|essentials\lib\LoadExtensions.java|2450|2456|System|class|java.lang.System
+      @|essentials\lib\LoadExtensions.java|2457|2470|lineSeparator|method|java.lang.System|lineSeparator|()Ljava/lang/String;
+      @|essentials\lib\LoadExtensions.java|2548|2553|close|method|java.lang.AutoCloseable|close|()V
+      @|essentials\lib\LoadExtensions.java|2596|2605|Exception|class|java.lang.Exception
+      @|essentials\lib\LoadExtensions.java|2631|2639|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+   Method End: extension(Ljava/net/URL;)Ljava/lang/String;
+Class End  : essentials.lib.LoadExtensions
+endProcessing essentials\lib\LoadExtensions.java
+
